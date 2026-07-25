@@ -1,0 +1,8 @@
+# Transformer From Scratch Configuration
+
+app:
+  name: Transformer From Scratch
+  env: development
+
+logging:
+  level: INFO

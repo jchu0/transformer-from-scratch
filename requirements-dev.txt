@@ -1,0 +1,8 @@
+# Transformer From Scratch - Development Dependencies
+#
+# This file is for pip compatibility. Primary dependencies are defined in pyproject.toml.
+# Install with: pip install -r requirements-dev.txt
+#
+# Alternatively, use: pip install -e ".[dev]"
+
+-e ".[dev]"

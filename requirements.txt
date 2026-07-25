@@ -1,0 +1,7 @@
+# Transformer From Scratch - Production Dependencies
+# 
+# This file is for pip compatibility. Primary dependencies are defined in pyproject.toml.
+# Generate from pyproject.toml: pip-compile pyproject.toml -o requirements.txt
+#
+# Add production dependencies below:
+

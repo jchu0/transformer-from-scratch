@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Environment
+.env
+.env.local
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code — local settings only.
+.claude/
+
+# Private / local-only — never pushed to the public repo (personal plans, charter, notes).
+# These stay on disk (CLAUDE.md must remain at repo root for Claude Code to load it).
+CLAUDE.md
+RESOURCES.md
+docs/
+
+# Project-specific
+logs/
+*.log
+tmp/
+temp/
+
+# ML / DL model & activation artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.npy
+*.npz
+*.h5
+*.pkl
+
+# Trained model artifacts (keep the directory, ignore its contents)
+models/*
+!models/.gitkeep
+
+# Experiment tracking & run outputs
+wandb/
+runs/
+lightning_logs/
+outputs/
+checkpoints/
+eval/results/
+
+# Caches
+.cache/
+.ipynb_checkpoints/
